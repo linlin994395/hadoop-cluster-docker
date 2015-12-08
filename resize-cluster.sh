@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 tag="0.1.0"
 
@@ -19,7 +19,7 @@ i=1
 while [ $i -lt $N ]
 do
 	echo "slave$i.kiwenlau.com" >> files/slaves
-	((i++))
+	i=$(( $i + 1 ))
 done 
 
 # delete master container

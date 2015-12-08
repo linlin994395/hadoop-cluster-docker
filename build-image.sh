@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 image=$1
 tag="0.1.0"
